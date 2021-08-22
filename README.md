@@ -3,7 +3,8 @@
 仅做学习笔记
 
 - [x] [单例模式](https://www.bilibili.com/video/BV1G64y1y7SV?p=1)
-- [x] []
+- [x] [OOP](https://www.bilibili.com/video/BV13A411G74C?p=1)
+- [x] [Text](https://www.bilibili.com/video/BV13A411G74C?p=3)
 
 ### 运行demo
 
