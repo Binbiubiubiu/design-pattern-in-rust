@@ -3,8 +3,9 @@
 仅做学习笔记
 
 - [x] [单例模式](https://www.bilibili.com/video/BV1G64y1y7SV?p=1)
-- [x] [OOP](https://www.bilibili.com/video/BV13A411G74C?p=1)
+- [x] [面向对象](https://www.bilibili.com/video/BV13A411G74C?p=1)
 - [x] [Text](https://www.bilibili.com/video/BV13A411G74C?p=3)
+- [x] [生产者模式](https://www.bilibili.com/video/BV1bQ4y1R7wx?p=1)
 
 ### 运行demo
 
