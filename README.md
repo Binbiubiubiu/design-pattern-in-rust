@@ -7,6 +7,7 @@
 - [x] [Text](https://www.bilibili.com/video/BV13A411G74C?p=3)
 - [x] [生产者模式](https://www.bilibili.com/video/BV1bQ4y1R7wx?p=1)
 - [x] [工厂模式](https://www.bilibili.com/video/BV1oo4y117rv?p=1)
+- [x] [抽象工厂模式](https://www.bilibili.com/video/BV1QU4y1L7nv?p=1)
 
 ### 运行demo
 
