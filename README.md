@@ -9,6 +9,7 @@
 - [x] [工厂模式](https://www.bilibili.com/video/BV1oo4y117rv?p=1)
 - [x] [抽象工厂模式](https://www.bilibili.com/video/BV1QU4y1L7nv?p=1)
 - [x] [观察者模式](https://www.bilibili.com/video/BV1gb4y1y7CM?p=1)
+- [x] [策略模式](https://www.bilibili.com/video/BV16q4y1s7At?p=1)
 
 ### 运行demo
 
