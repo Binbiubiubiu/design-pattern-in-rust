@@ -8,9 +8,9 @@ impl Warehouse {
         Warehouse { parts: Vec::new() }
     }
 
-    fn sell_parts(&self){
-        for v in &self.parts{
-            println!("{}",v);
+    fn sell_parts(&self) {
+        for v in &self.parts {
+            println!("{}", v);
         }
     }
 }
@@ -35,11 +35,15 @@ impl HumanBuilder {
 
 impl Builder for HumanBuilder {
     fn fill_warehouset_part_a(&mut self) {
-        self.warehouse.parts.push("human product a part".to_string());
+        self.warehouse
+            .parts
+            .push("human product a part".to_string());
     }
 
     fn fill_warehouset_part_b(&mut self) {
-        self.warehouse.parts.push("human product b part".to_string());
+        self.warehouse
+            .parts
+            .push("human product b part".to_string());
     }
 
     fn name(&mut self) -> String {
@@ -53,27 +57,30 @@ impl Builder for HumanBuilder {
     }
 }
 
-struct MachineBuilder{
-    warehouse:Warehouse,
+struct MachineBuilder {
+    warehouse: Warehouse,
 }
 
 impl MachineBuilder {
-    fn new()->MachineBuilder {
-        MachineBuilder{
-            warehouse:Warehouse::new(),
+    fn new() -> MachineBuilder {
+        MachineBuilder {
+            warehouse: Warehouse::new(),
         }
     }
 }
 
 impl Builder for MachineBuilder {
     fn fill_warehouset_part_a(&mut self) {
-        self.warehouse.parts.push("machine product a part".to_string());
+        self.warehouse
+            .parts
+            .push("machine product a part".to_string());
     }
 
     fn fill_warehouset_part_b(&mut self) {
-        self.warehouse.parts.push("machine product b part".to_string());
+        self.warehouse
+            .parts
+            .push("machine product b part".to_string());
     }
-
 
     fn name(&mut self) -> String {
         "Machine".to_string()
@@ -101,10 +108,10 @@ impl Director {
     }
 
     fn get_which_warehouse(&mut self) {
-       println!("get {} type warehouse", self.builder.name());
+        println!("get {} type warehouse", self.builder.name());
     }
 
-    fn get_warehouse(&mut self)-> Warehouse{
+    fn get_warehouse(&mut self) -> Warehouse {
         self.builder.get_warehouse()
     }
 }
@@ -133,4 +140,4 @@ fn main() {
     let w = director2.get_warehouse();
     // 4 清空warehouse 产品
     w.sell_parts();
-}   
+}

@@ -12,6 +12,7 @@
 - [x] [策略模式](https://www.bilibili.com/video/BV16q4y1s7At?p=1)
 - [x] [责任链模式](https://www.bilibili.com/video/BV1W54y1E7Y7?p=1)
 - [x] [适配器模式](https://www.bilibili.com/video/BV1p64y1s7U5?p=1)
+- [x] [代理模式](https://www.bilibili.com/video/BV1MU4y1n7TY?p=1)
 
 ### 运行demo
 
